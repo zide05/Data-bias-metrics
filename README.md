@@ -18,7 +18,7 @@ pred_samples = [["marseille prosecutor says `` so far no videos were used in the
 print(get_metrics(doc_samples, pred_samples))
 ```
 
-The code of Coverage (metrics/fragment.py) is from passage [Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://arxiv.org/pdf/1906.01749.pdf).
+The [code](https://github.com/Alex-Fabbri/Multi-News) of Coverage (metrics/fragment.py) is from passage [Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://arxiv.org/pdf/1906.01749.pdf).
 
-We change the code of sentence fusion (metrics/ssi_functions.py and metrics/sent_fusion.py) (from passage: [Scoring Sentence Singletons and Pairs for Abstractive Summarization](https://arxiv.org/pdf/1906.00077.pdf).) partly to get the sentence fusion score. 
+We change the [code](https://github.com/ucfnlp/summarization-sing-pair-mix) of sentence fusion (metrics/ssi_functions.py and metrics/sent_fusion.py) (from passage: [Scoring Sentence Singletons and Pairs for Abstractive Summarization](https://arxiv.org/pdf/1906.00077.pdf).) partly to get the sentence fusion score. 
 
